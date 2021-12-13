@@ -1,0 +1,5 @@
+ {
+   "API_BASE": "https://dev.bein.az/controllers",
+   "API_MODS": "https://dev.bein.az/controllers/attributes",
+   "API_LOGIN": "https://dev.bein.az/login"
+ }

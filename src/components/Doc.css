@@ -1,0 +1,38 @@
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+
+.ant-modal.close_doc_modal_wrapper .ant-modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.doc_loader{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ant-modal.close_doc_modal_wrapper .ant-modal-content{
+  width: 25rem;
+  margin: auto;
+}
+
+.exitModalTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.exitModalTitle svg{
+  width: 100px;
+  height: 54px;
+  color: #ffc600;
+}
+.exitModalBodyText{
+  text-align: center;
+}

@@ -1,0 +1,183 @@
+.buttons_wrapper h1 {
+    color: red;
+    font-size: 12px;
+}
+
+.suffixed {
+    font-size: 16px;
+    color: #1890ff !important;
+    cursor: pointer !important;
+}
+.buttons_holder_flex {
+    display: flex;
+}
+.mobile_dates_wrapper .ant-tag{
+    border: none !important;
+    background: none !important;
+
+}
+.buttons_click {
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    border-color: white !important;
+    background-color: white;
+    position: relative;
+}
+
+.ui.labeled.icon.button.outerbuttons{
+    padding: 0.5rem 2rem !important;
+    background-color: white !important;
+    border: 1px solid #0288d1 !important;
+}
+
+.outerbuttons .anticon{
+    color: #0288d1 !important;
+}
+
+.filterbutton {
+    margin-left: 1em;
+}
+.buttons_click span {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* .buttons_click:hover .custombtns {
+    height: 90%;
+} */
+.custombtns {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 13px;
+    border-color: #eef20f;
+    background-color: #174b75;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+.doc_header_buttons {
+    margin: 20px 0;
+    display: flex;
+}
+
+#createGroup {
+    margin: 0 14px !important;
+}
+.buttons_center .ant-input {
+    height: 32px;
+}
+.exoirt_csv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.exoirt_csv span {
+    color: #0288d1;
+}
+.ant-page-header-heading-title {
+    font-size: large !important;
+}
+.doc_header_buttons .customclosebtn {
+    margin-left: 10px;
+    border-radius: 3px;
+    background: #f9f9f9 !important;
+}
+
+.doc_header_buttons .customnewdoc {
+    margin-left: 50px;
+    border-radius: 3px;
+    background: #f9f9f9 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.doc_header_buttons .customnewdoc span {
+    margin-left: 4px;
+}
+.doc_header_buttons .customclosebtn:hover {
+    color: red !important;
+    border-color: red !important;
+}
+
+.customsavebtn:hover{
+    background-color: #5eba7d !important;
+}
+.customsavebtn:focus{
+    background-color: #5eba7d !important;
+}
+
+.customsavebtn[disabled] { 
+    background-color: #dfdfdf !important;
+
+}
+.customsavebtn {
+    background: #21ba45 ;
+    border-radius: 3px;
+    color: white !important;
+    font-weight: bold;
+}
+.custom_top_margin {
+    margin-top: 10px !important;
+}
+
+.search_header {
+    margin-left: 50px;
+}
+.position_fixed {
+    position: fixed !important;
+    transition: none;
+    z-index: 800;
+    width: 100% !important;
+}
+
+.buttons_holder {
+    height: 70px;
+    background-color: white;
+    z-index: 4 !important;
+}
+.buttons_center {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.buttons_center a {
+    margin: 0 4px !important;
+    opacity: 1 !important;
+}
+.menu.transition.visible {
+    z-index: 99 !important;
+}
+
+.buttons_wrapper_side {
+    row-gap: 0px;
+    position: sticky;
+    top: 0;
+    height: 62px;
+    background: #f9f9f9;
+}
+
+.ui.vertical.animated.button .visible.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.ui.vertical.animated.button .visible.content span {
+    margin-right: 8px;
+    color: #0288d1;
+}
